@@ -1,0 +1,153 @@
+body::selection {
+    background-color: #0DD42B;
+}
+header {
+    background-image: url(./pict/Слой\ 5.png);
+    background-size: 100%;
+    color: white;
+    height: 720px;
+    font-size: 14px;
+}
+header nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#logo {
+    text-align: center;
+}
+.logo {
+    width: 55px;
+}
+#interlogo {
+    padding: 1px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+header a:hover {
+    color: #0DD42B;
+}
+nav div {
+    padding: 1vw 0vw 1vw 0vw;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    margin: 44px;
+    width: 352px;
+    height: 389px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+input {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: white 1px solid;
+    color: white;
+    text-align: center;
+}
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+header h3 {
+    margin: 0%;
+}
+header h2 {
+    margin: 0%;
+}
+input:focus::placeholder {
+    color: rgba(0, 0, 0, 0);
+}
+@media screen and (max-width: 991px) {
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+main {
+    font-size: 18px;
+}
+main a {
+    color: #0DD42B;
+    text-decoration: none;
+    margin-left: 10%;
+}
+main a:hover {
+    color: #0DD42B;
+}
+main section {
+    margin-bottom: 100px;
+}
+#secondsec {
+    background: url(./pict/sloy_9_293.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 200px;
+}
+#secondsec .row {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 100px;
+}
+#secondsec a {
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+}
+#secondsec a:hover {
+    color: #0DD42B;
+}
+#hhh {
+    margin-top: -20px;
+}
+#secondsec .row div {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: #0DD42B;
+}
+footer span {
+    margin: 5px;
+}
+footer p {
+    text-align: end;
+    font-size: 12px;
+    margin-right: 25px;
+}
+footer .row .justify-content-center {
+    margin: 30px 0px 30px 15px;
+}
+#fnav {
+    margin: 43px 15px 43px 0px;
+    font-size: 14px;
+}
+@media screen and (max-width: 767px) {
+    footer p {
+        text-align: center;
+        margin-right: 0px;
+    }
+}
